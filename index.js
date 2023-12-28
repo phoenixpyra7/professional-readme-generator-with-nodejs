@@ -53,7 +53,7 @@ const questions = [
     type: "input",
     name: "contributors",
     message: "Please list any and all contributors by their Github usernames.",
-    default: "",
+    default: "", //Do I need this?
   },
   {
     type: "input",
@@ -67,16 +67,19 @@ const questions = [
   },
 ];
 
+
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFileSync(path.join(process.cwd(), fileName), data); //removed a possible return comand
 }
 
+
 // Created a function to initialize app
 function init() {
   inquirer.prompt(questions).then((responses) => {
-    console.log("Creating your requested README.md File...");
-    writeToFile("./dist/README.md", generateMarkdown({ ...responses }));
+    console.log("Creating your README.md File...");//Providing confirmation message.
+    writeToFile("Generated-README.md", generateMarkdown({ ...responses }));
   });
 }
 // Function call to initialize app
