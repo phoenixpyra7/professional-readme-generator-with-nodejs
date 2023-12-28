@@ -36,30 +36,30 @@ ${data.description}
 * [Questions](#questions)
 
 
-## Features
+## Features:
 ${data.features}
 
 ## How to Use This Application:
 ${data.usage}
 
-## Languages & Dependencies
+## Languages & Dependencies:
 ${data.require}
 
-##  License
+##  License(s):
 ${data.license}
 
-## Testing
+## Tests:
 ${data.test}
 
-## Contributors
+## Contributors:
 ${data.contributors}
 
-## Creator
-${data.creator}
+## Author:
+${data.author}
 
-## Questions
+## Questions:
 -  You can reach me with questions at: [Github](https://${data.creator})
--  Or you can email me at: [Email](${data.email})
+-  Or you can email me at: [authoremail](${data.email})
 `;
 }
 
