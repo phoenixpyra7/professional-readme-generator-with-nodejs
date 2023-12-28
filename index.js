@@ -1,7 +1,7 @@
 // Included packages needed for this application
-const fs = require("fs");
-const inquirer = require("inquirer");
 const path = require("path");
+const inquirer = require("inquirer");
+const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // Created an array of questions for user input
@@ -24,7 +24,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "features",
+    name: "features", // DONT NEED?
     message: "List all of the features about this project here.",
   },
   {
@@ -35,7 +35,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "require",
+    name: "require", //is this the installation?
     message: "List any and all project dependencies here.",
   },
   {
