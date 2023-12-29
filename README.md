@@ -21,7 +21,7 @@ Liscense information: https://mit-license.org/
 
 ## Screenshot
 
-![professional-readme-generator-with-nodejs]() 
+![professional-readme-generator-with-nodejs](./assests/images/PRG%20Screenshot1%20.png) 
 
 
 ## Link 
