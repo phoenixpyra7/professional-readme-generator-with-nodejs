@@ -53,9 +53,6 @@ ${data.license}
 ## Description
 ${data.description}
 
-## Screenshot
-![screenshot](${data.screenshot})
-
 ## Table of Contents
 * [Decsription Of This Application](#DescriiptionOfThisApplication)
 * [Languages & Dependencies & Instructions](#languagesanddependenciesandinstructions)
