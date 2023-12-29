@@ -5,7 +5,7 @@
 ## Description
 This is a simple, professional ReadME generator using Node.js.
 
-![Github license](https://img.shields.io/badge/license-${license}-purple.svg)
+![Github license](https://img.shields.io/badge/license-${MIT}-purple.svg)
 
 Liscense information: https://mit-license.org/ 
 
