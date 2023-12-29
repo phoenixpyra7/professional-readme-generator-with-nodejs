@@ -42,28 +42,31 @@ function renderLicenseSection(license) {
 // Created a function to generate a markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} 
-${renderLicenseBadge(data.license)} //this here?
+${renderLicenseBadge(data.license)} 
 
 ## Live URL
 [Live URL](${data.link})
 
-## Description
-${data.description}
-
-## Table of Contents
-* [Decsription Of This Application](#DescriiptionOfThisApplication)
-* [Languages & Dependencies](#languagesanddependencies)
-* [Testing](#testing)
-* [Contributors](#contributors)
-* [Questions](#questions)
-
-## Languages & Dependencies:
-${data.require}
-
 ##  License(s):
 ${data.license}
 
-## Tests:
+## Description
+${data.description}
+
+## Screenshot
+![screenshot](${data.screenshot})
+
+## Table of Contents
+* [Decsription Of This Application](#DescriiptionOfThisApplication)
+* [Languages & Dependencies & Instructions](#languagesanddependenciesandinstructions)
+* [Testing & Instructions](#testingandinstructions)
+* [Contributors](#contributors)
+* [Questions](#questions)
+
+## Languages & Dependencies including any instructions if applicable:
+${data.require}
+
+## Tests or Test Instructions:
 ${data.test}
 
 ## Contributors:
@@ -73,8 +76,7 @@ ${data.contributors}
 ${data.author}
 
 ## Questions:
--  You can reach me with questions at: [Github](https://${data.author})
--  Or you can email me at: [authoremail](${data.email})
+-  You can reach me with questions at: [Github](https://${data.author}) Or you can email me at: [authoremail](${data.email})
 `;
 }
 

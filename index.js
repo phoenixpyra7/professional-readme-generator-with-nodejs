@@ -20,7 +20,7 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "What is the purpose of this project.",
+    message: "Describe the purpose of your project.",
   },
   {
     type: "input",
@@ -31,7 +31,7 @@ const questions = [
   {
     type: "input",
     name: "require",
-    message: "List any and all project dependencies here.", //split from languages so it will be seperated if multiple
+    message: "List any and all project dependencies here including instructions if applicable.", //split from languages so it will be seperated if multiple
   },
   {
     type: "checkbox",
@@ -42,7 +42,7 @@ const questions = [
   {
     type: "input",
     name: "test",
-    message: "Provide a list of any tests that have been conducted.",
+    message: "Provide a list of any tests that have been conducted or instructions on how to conduct them.",
   },
   {
     type: "input",
