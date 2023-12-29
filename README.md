@@ -22,7 +22,7 @@ Liscense information: https://mit-license.org/
 ## Screenshot
 
 ![professional-readme-generator-with-nodejs](./assests/images/PRG%20Screenshot1%20.png) 
-
+![Alt text](<assests/images/PRG Screenshot2 .png>)
 
 ## Link 
 
