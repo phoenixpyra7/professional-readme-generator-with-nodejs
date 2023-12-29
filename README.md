@@ -3,7 +3,7 @@
 
 
 ## Description
-This is a simple, professional ReadME generator using JavaScript and Node, in the command line application.
+This is a simple, professional ReadME generator using JavaScript and Node.
 
 
 Liscense informationn: https://mit-license.org/ 
@@ -24,4 +24,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ## Link 
 
-Live URL: 
+Live Recording URL: 
