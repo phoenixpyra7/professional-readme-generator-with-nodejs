@@ -3,7 +3,7 @@
 
 
 ## Description
-This is a simple, professional ReadME generator using JavaScript and Node.
+This is a simple, professional ReadME generator using Node.js.
 
 
 Liscense informationn: https://mit-license.org/ 
