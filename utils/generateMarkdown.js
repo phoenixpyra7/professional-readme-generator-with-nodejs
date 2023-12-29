@@ -1,7 +1,7 @@
 // Created a function that returns a license badge based on which license is passed in.
 function renderLicenseBadge(license) {
   if (license !== "none") {
-    return `![Github license](https://img.shields.io/badge/license-${license}-green.svg)`;
+    return `![Github license](https://img.shields.io/badge/license-${license}-purple.svg)`;
   }
   return "";
 }
@@ -57,10 +57,6 @@ ${data.description}
 * [Contributors](#contributors)
 * [Questions](#questions)
 
-// breaking up parts for easy reading
-## Description of this Application:
-${data.usage}
-
 ## Languages & Dependencies:
 ${data.require}
 
@@ -77,7 +73,7 @@ ${data.contributors}
 ${data.author}
 
 ## Questions:
--  You can reach me with questions at: [Github](https://${data.creator})
+-  You can reach me with questions at: [Github](https://${data.author})
 -  Or you can email me at: [authoremail](${data.email})
 `;
 }
