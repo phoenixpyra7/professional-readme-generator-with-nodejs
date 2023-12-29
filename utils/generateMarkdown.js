@@ -51,18 +51,14 @@ ${renderLicenseBadge(data.license)} //this here?
 ${data.description}
 
 ## Table of Contents
-* [Features](#features)
-* [How to Use This Application](#HowtoUseThisApplication)
+* [Decsription Of This Application](#DescriiptionOfThisApplication)
 * [Languages & Dependencies](#languagesanddependencies)
 * [Testing](#testing)
 * [Contributors](#contributors)
 * [Questions](#questions)
 
 // breaking up parts for easy reading
-## Features:
-${data.features}
-
-## How to Use This Application:
+## Description of this Application:
 ${data.usage}
 
 ## Languages & Dependencies:

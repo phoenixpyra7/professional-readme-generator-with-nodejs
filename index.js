@@ -20,29 +20,24 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "What is the purpose and functionality of this project.",
-  },
-  {
-    type: "input",
-    name: "features", // DONT NEED?
-    message: "List all of the features about this project here.",
+    message: "What is the purpose of this project.",
   },
   {
     type: "input",
     name: "usage",
     message:
-      "What are the languages or technologies associated with this project.",
+      "What are the languages associated with this project.",//split from dependancies so it will be seperated if multiple
   },
   {
     type: "input",
-    name: "require", //is this the installation?
-    message: "List any and all project dependencies here.",
+    name: "require",
+    message: "List any and all project dependencies here.", //split from languages so it will be seperated if multiple
   },
   {
     type: "checkbox",
     name: "license",
     message: "Select any and all licenses applicable to this project.",
-    choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
+    choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"], //checkbox options
   },
   {
     type: "input",
@@ -53,7 +48,7 @@ const questions = [
     type: "input",
     name: "contributors",
     message: "Please list any and all contributors by their Github usernames.",
-    default: "", //Do I need this?
+    default: "", //Do I need this default value?
   },
   {
     type: "input",
@@ -63,7 +58,7 @@ const questions = [
   {
     type: "input",
     name: "authoremail",
-    message: "What is your email address.",
+    message: "What is your sharable email address.",
   },
 ];
 
