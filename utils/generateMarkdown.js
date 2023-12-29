@@ -73,7 +73,8 @@ ${data.contributors}
 ${data.author}
 
 ## Questions:
--  You can reach me with questions at: [Github](https://${data.author}) Or you can email me at: [authoremail](${data.email})
+-  You can reach me with questions at: [Github](https://${data.author}) 
+-  Or you can email me at: [email](${data.email})
 `;
 }
 
