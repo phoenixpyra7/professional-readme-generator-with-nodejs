@@ -50,32 +50,33 @@ ${renderLicenseBadge(data.license)}
 ##  License(s):
 ${data.license}
 
-## Description
-${data.description}
-
 ##  Table of Contents
 * [Decsription](#decsription)
 * [Languages](#languages)
-* [Dependancies](#dependancies)
+* [Dependencies](#dependencies)
 * [Testing](#testing)
 * [Contributors](#contributors)
 * [Questions](#questions)
 
 
-## Languages & Dependencies including any instructions if applicable:
+## Description
+${data.description}
+
+
+## Languages including instructions:
+${data.installation}
+
+
+## Dependencies including instructions:
 ${data.require}
 
 
-## Tests or Test Instructions:
+## Test and Instructions:
 ${data.test}
 
 
 ## Contributors:
 ${data.contributors}
-
-
-// ## Author:
-// ${data.author}
 
 
 ## Questions:
