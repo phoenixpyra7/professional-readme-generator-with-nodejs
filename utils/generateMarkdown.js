@@ -44,11 +44,12 @@ function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)} 
 
+
 ## Live URL
-[Live URL](${data.link})
+- [Live URL](${data.link})
 
 ##  License(s):
-${data.license}
+- ${data.license}
 
 ##  Table of Contents
 * [Decsription](#decsription)
