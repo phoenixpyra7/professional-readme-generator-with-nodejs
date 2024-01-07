@@ -53,28 +53,34 @@ ${data.license}
 ## Description
 ${data.description}
 
-## Table of Contents
-* [Decsription Of This Application](#DescriiptionOfThisApplication)
-* [Languages & Dependencies & Instructions](#languagesanddependenciesandinstructions)
-* [Testing & Instructions](#testingandinstructions)
+##  Table of Contents
+* [Decsription](#decsription)
+* [Languages](#languages)
+* [Dependancies](#dependancies)
+* [Testing](#testing)
 * [Contributors](#contributors)
 * [Questions](#questions)
+
 
 ## Languages & Dependencies including any instructions if applicable:
 ${data.require}
 
+
 ## Tests or Test Instructions:
 ${data.test}
+
 
 ## Contributors:
 ${data.contributors}
 
-## Author:
-${data.author}
+
+// ## Author:
+// ${data.author}
+
 
 ## Questions:
 -  You can reach me with questions at: [Github](https://${data.author}) 
--  Or you can email me at: [email](${data.email})
+-  Or you can email me at: [Email](${data.email})
 `;
 }
 
