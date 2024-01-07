@@ -24,14 +24,14 @@ const questions = [
   },
   {
     type: "input",
-    name: "usage",
-    message:
-      "What are the languages associated with this project.",//split from dependancies so it will be seperated if multiple
+    name: "installation",
+    message: "What are the languages associated with this project.", //split from dependancies so it will be seperated if multiple
   },
   {
     type: "input",
-    name: "require",
-    message: "List any and all project dependencies here including instructions if applicable.", //split from languages so it will be seperated if multiple
+    name: "installation",
+    message:
+      "List any and all project dependencies here including instructions if applicable.", //split from languages so it will be seperated if multiple
   },
   {
     type: "checkbox",
@@ -42,38 +42,35 @@ const questions = [
   {
     type: "input",
     name: "test",
-    message: "Provide a list of any tests that have been conducted or instructions on how to conduct them.",
+    message:
+      "Provide a list of any tests that have been conducted or instructions on how to conduct them.",
   },
   {
     type: "input",
     name: "contributors",
     message: "Please list any and all contributors by their Github usernames.",
-    default: "", //Do I need this default value?
   },
   {
     type: "input",
     name: "author",
-    message: "What is your GitHub username.",
+    message: "What is your GitHub.",
   },
   {
     type: "input",
-    name: "authoremail",
+    name: "email",
     message: "What is your sharable email address.",
   },
 ];
-
-
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFileSync(path.join(process.cwd(), fileName), data); //removed a possible return comand
 }
 
-
 // Created a function to initialize app
 function init() {
   inquirer.prompt(questions).then((responses) => {
-    console.log("Creating your README.md File...");//Providing confirmation message.
+    console.log("Creating your README.md File..."); //Providing confirmation message.
     writeToFile("Generated-README.md", generateMarkdown({ ...responses }));
   });
 }

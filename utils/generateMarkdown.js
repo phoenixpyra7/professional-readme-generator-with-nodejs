@@ -60,23 +60,23 @@ ${data.license}
 
 
 ## Description
-${data.description}
+-  ${data.description}
 
 
 ## Languages including instructions:
-${data.installation}
+-  ${data.installation}
 
 
 ## Dependencies including instructions:
-${data.require}
+-  ${data.require}
 
 
 ## Test and Instructions:
-${data.test}
+-  ${data.test}
 
 
 ## Contributors:
-${data.contributors}
+-  ${data.contributors}
 
 
 ## Questions:
